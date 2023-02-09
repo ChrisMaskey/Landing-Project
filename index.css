@@ -1,0 +1,184 @@
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+
+body
+{
+    background-color: #1f2937;
+}
+
+.navbar
+{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+.logo h1
+{
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 600;
+    color: #f9faf8;
+}
+
+.navbar a
+{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover
+{
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.header-link
+{
+    display: flex;
+    padding: 10px;  
+    gap: 40px;
+}
+
+#Hero
+{
+    display: flex;
+    margin: 50px 0px;
+    padding: 50px 200px;
+    justify-content: space-between;
+}
+
+.Text-area
+{
+    width: 500px;
+}
+
+.Text-area h1
+{
+    font-size: 50px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.Text-area h4
+{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #e5e7eb;
+}
+
+.Text-area button
+{
+    cursor: pointer;
+    border: none;
+    background-color: #3882f6;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 50px;
+    color: #f9faf8;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+.Text-area button:hover
+{
+    color: #fff;
+    background-color: #0046b8;
+    transition: 0.3s ease;
+}
+
+.image-area img
+{
+    height: 350px;
+    width: 900px;
+    object-fit: cover;
+}
+
+#Mountains
+{
+    background-color: #fff;
+}
+
+#Mountains h1
+{
+    font-size: 38px;
+    font-weight: 500;
+    color: #1f2937;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.box
+{
+    padding: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box img
+{
+    height: 300px;
+    width: 300px;
+}
+
+.box h2
+{
+    padding: 20px 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+#quote
+{
+    padding: 100px 200px;
+    background-color: #e5e7eb;
+}
+
+.quote-text h1 
+{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 200;
+    color: #1f2937;
+}
+
+.quote-text h4
+{
+
+    font-weight: 200;
+    font-style: italic;
+    text-align: end;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+
+#Footer
+{
+    padding: 20px 200px;
+    text-align: center;
+}
+
+#Footer h3
+{
+    color: #f9faf8;
+    font-weight: 200;
+    font-size: 17px;
+}
